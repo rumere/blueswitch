@@ -1,7 +1,5 @@
 #!/bin/bash
 
-set -ex
-
 MOUSE_ID=a8-be-27-d9-a2-4d
 KEYBOARD_ID=40-e6-4b-8e-12-9a
 
