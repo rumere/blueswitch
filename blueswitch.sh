@@ -18,9 +18,14 @@ else
     blueutil -p 1
     echo "Restart devices..."
     sleep 15
+    echo "Paring mouse..."
     blueutil --pair ${MOUSE_ID}
+    sleep 3
     BluetoothConnector --connect ${MOUSE_ID}
+    sleep 3
+    echo "Pairing keyboard..."
     blueutil --pair ${KEYBOARD_ID}
+    sleep 3
     BluetoothConnector --connect ${KEYBOARD_ID}
 fi
 
