@@ -1,7 +1,7 @@
 #!/bin/bash
 
-MOUSE_ID=a8-be-27-d9-a2-4d
-KEYBOARD_ID=40-e6-4b-8e-12-9a
+MOUSE_ID=3c-a6-f6-c4-8d-ba
+KEYBOARD_ID=ac-49-db-f3-04-be
 
 MOUSE_STATE=`blueutil --is-connected ${MOUSE_ID}`
 KEYBOARD_STATE=`blueutil --is-connected ${KEYBOARD_ID}`
